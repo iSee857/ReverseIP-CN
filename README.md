@@ -2,6 +2,10 @@
 
 ReverseIP-CN 是一款专为中文网络环境优化的IP反查工具，能够快速查询指定IP/域名关联的所有网站，是网络安全检测、资产梳理的利器。
 
+依赖包安装：
+
+pip install -r requirements.txt
+
   
 参数说明：
 
@@ -25,17 +29,24 @@ python revip_cn.py -u "目标URL/IP"
 
 python revip_cn.py -l 目标列表.txt -o 结果.xlsx
 
-3、智能输入清洗：
+ 3、智能输入清洗：
 
 自动处理各种输入格式：
 
-218.56.165.110
+127.0.0.1
 
-218.56.165.110:8080
+127.0.0.1:8080
 
-http://218.56.165.110
+http://127.0.0.1
 
-https://218.56.165.110/path
+https://127.0.0.1/path
+
+![image](https://github.com/user-attachments/assets/7a594455-c085-4d6e-85d1-0808614d0e14)
+
+导出结果
+
+![image](https://github.com/user-attachments/assets/874eaccd-6d60-4900-a9c9-8520116194c5)
+
 
 ⚠️ 注意事项
 
