@@ -3,9 +3,9 @@
 ReverseIP-CN 是一款专为中文网络环境优化的IP反查工具，能够快速查询指定IP/域名关联的所有网站，是网络安全检测、资产梳理的利器。
 
 - 依赖包安装：
-
+```
 pip install -r requirements.txt
-
+```
   
 - 参数说明：
 
